@@ -1,0 +1,17 @@
+{
+  "name": "weather-app",
+  "module": "app.js",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "hbs": "^4.2.0",
+    "request": "^2.88.2"
+  }
+}
