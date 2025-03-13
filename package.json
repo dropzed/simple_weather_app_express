@@ -3,6 +3,10 @@
   "module": "app.js",
   "type": "module",
   "private": true,
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "bun ./src/app.js"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
